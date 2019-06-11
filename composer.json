@@ -1,0 +1,29 @@
+{
+    "name": "anxu/sensitive",
+    "description": "Filter or replace sensitive words in the text",
+    "type": "library",
+    "keywords": ["sensitive","library"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "anxu",
+            "email": "anxu1212@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "anxu\\sensitive\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "test\\": "tests/"
+        }
+    }
+}
